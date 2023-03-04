@@ -1,4 +1,4 @@
-# Operating Systems Project 1
+# Operating Systems Project 
 This program reads a file and splits its contents into lines. Then, the program creates multiple child processes to execute transactions on a shared memory region. The transactions are described in the file read earlier.
 
 The program initializes four semaphores for synchronizing access to the shared memory region. The shared memory region consists of a structure with two char arrays, one for storing the request id and one for storing the response.
